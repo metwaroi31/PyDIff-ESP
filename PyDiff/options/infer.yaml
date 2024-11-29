@@ -1,7 +1,7 @@
 # general settings
 name: infer
 model_type: PyDiffModel
-num_gpu: 2
+num_gpu: 0
 manual_seed: 0
 
 # dataset and data loader settings
@@ -86,7 +86,7 @@ path:
 # training settings
 train:
   cs_on_shift: true
-  vis_train: true
+  vis_train: false
   vis_num: 150
   train_type: ddpm_cs_pyramid
   t_border: 1000
